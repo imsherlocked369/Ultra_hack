@@ -1,10 +1,8 @@
-# Ultra_hack - Autonomous Aerial Search & Rescue System
-
-An autonomous drone exploration and target detection system that uses Next-Best-View (NBV) planning to systematically search an area, detect objects, and identify target buildings. This system integrates with MAVLink-compatible flight controllers to execute autonomous missions.
+.
 
 ## Overview
 
-This project implements an intelligent exploration algorithm for autonomous aerial vehicles (drones) to:
+This code does intelligent exploration algorithm for autonomous aerial vehicles  to:
 - Systematically search a defined area using a grid-based exploration strategy
 - Detect candidates (false positives and target buildings) using simulated perception
 - Confirm target buildings through stabilized multi-frame detection
