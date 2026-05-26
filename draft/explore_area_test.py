@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+### DEPRICATED - This file is no longer maintained and may not work with current versions of the simulator. It is kept for historical reference only. IGNORE this file.
+
+
 import math
 import time
 import csv
@@ -16,7 +21,7 @@ REJECTION_RADIUS_M = 8
 MISSION_TIME_LIMIT_SEC = 15 * 60
 VIEWPOINT_STEP_M = 8
 ALTITUDE_M = 5.0
-MAVLINK_CONNECTION = "udpin:0.0.0.0:14551"
+MAVLINK_CONNECTION = "udpin:0.0.0.0:14500"
 ARRIVAL_RADIUS_M = 2.5
 MAX_MOVE_WAIT_SEC = 60
 

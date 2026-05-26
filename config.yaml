@@ -1,0 +1,40 @@
+MAVLINK_CONNECTION: "udpin:0.0.0.0:14500"
+
+# Flight parameters
+TAKEOFF_ALTITUDE: 5.0
+ALTITUDE_M: 5.0
+ARRIVAL_RADIUS_M: 2.5
+MAX_MOVE_WAIT_SEC: 60
+
+# Search area
+SEARCH_RADIUS_M: 60
+GRID_CELL_SIZE_M: 5
+VIEWPOINT_STEP_M: 8
+
+# Camera model
+CAMERA_RANGE_M: 25
+CAMERA_FOV_DEG: 70
+
+# Planner scoring weights
+PLANNER_GAIN_WEIGHT: 3.0
+PLANNER_DISTANCE_WEIGHT: 2.0
+PLANNER_REJECTION_PENALTY: 5.0
+
+# Inspection
+REJECTION_RADIUS_M: 8
+INSPECT_STANDOFF_M: 8.0
+
+# Mission
+MISSION_TIME_LIMIT_SEC: 900
+METRICS_OUTPUT_FILE: "explore_area_metrics.csv"
+
+SIM_OBJECTS:
+  - id: F1
+    xy: [15, 10]
+    type: false_cuboid
+  - id: F2
+    xy: [-20, 15]
+    type: false_cuboid
+  - id: B1
+    xy: [35, -20]
+    type: target_building
