@@ -60,15 +60,9 @@ MAX_MOVE_WAIT_SEC = 60                    # Maximum time to reach waypoint (seco
 
 ## Simulated Objects
 
-The system can search for three types of objects:
-
-```python
-SIM_OBJECTS = [
-    {"id": "F1", "xy": (15, 10), "type": "false_cuboid"},      # False positive 1
-    {"id": "F2", "xy": (-20, 15), "type": "false_cuboid"},     # False positive 2
-    {"id": "B1", "xy": (35, -20), "type": "target_building"},  # Target building
-]
-```
+Simulation objects are not hardcoded in this repository. Provide object
+definitions via your chosen runner or configuration when running in
+simulation mode.
 
 ## Mission Flow
 

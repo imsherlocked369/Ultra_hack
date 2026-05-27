@@ -1,9 +1,9 @@
 metric,value
-mission_time_sec,272.59
-total_distance_m,55.76
-viewpoints_visited,4
-false_candidates_inspected,1
+mission_time_sec,917.44
+total_distance_m,222.26
+viewpoints_visited,19
+false_candidates_inspected,2
 repeated_visits_to_rejected_candidates,0
-rejected_objects,1
-target_building_found,True
-confirmed_target_id,B1
+rejected_objects,2
+target_building_found,False
+confirmed_target_id,

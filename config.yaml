@@ -37,4 +37,5 @@ SIM_OBJECTS:
     type: false_cuboid
   - id: B1
     xy: [35, -20]
-    type: target_building
+    # type: target_building
+    type: false_cuboid

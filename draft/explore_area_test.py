@@ -26,11 +26,8 @@ ARRIVAL_RADIUS_M = 2.5
 MAX_MOVE_WAIT_SEC = 60
 
 
-SIM_OBJECTS = [
-    {"id": "F1", "xy": (15, 10), "type": "false_cuboid"},
-    {"id": "F2", "xy": (-20, 15), "type": "false_cuboid"},
-    {"id": "B1", "xy": (35, -20), "type": "target_building"},
-]
+# Simulation objects removed from this deprecated file. Provide objects
+# via a dedicated configuration or the active runner if needed.
 
 
 @dataclass
@@ -337,7 +334,7 @@ def main():
 
     grid = ExplorationGrid()
     planner = NBVPlanner(grid)
-    perception = SimulatedPerception(SIM_OBJECTS)
+    perception = SimulatedPerception([])
     rejected_ids = set()
 
     flight = FlightClient(MAVLINK_CONNECTION)
